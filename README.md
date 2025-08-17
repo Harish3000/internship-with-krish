@@ -4,8 +4,8 @@
 ![Last Commit](https://img.shields.io/github/last-commit/Harish3000/internship-with-krish) 
 ![Commits](https://img.shields.io/github/commit-activity/m/Harish3000/internship-with-krish)
 
-Welcome to my internship journey guided by **Krishantha Dinesh (Chief Architect at Brandix Digital)** 🌟  
-This repository is where I keep all my projects, experiments, and learnings from the journey.  
+Welcome to my internship journey guided by **[Krishantha Dinesh (Chief Architect at Brandix Digital)](https://www.linkedin.com/in/krish-dinesh/)**🌟  
+This repository is where I keep all my projects, experiments, and discoveries from this learning adventure.  
 
 ---
 
