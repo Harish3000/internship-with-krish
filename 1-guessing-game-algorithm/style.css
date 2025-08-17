@@ -1,0 +1,14 @@
+/* Extremely minimal styling */
+body {
+  text-align: center;
+  margin-top: 250px;
+}
+
+#output {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#resetBtn {
+  display: none;
+}

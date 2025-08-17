@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Letter Guess Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Guess the Letter (A-Z)</h2>
+
+    <p>Attempts: <span id="attempts">0</span></p>
+
+    <input
+      type="text"
+      id="userInput"
+      maxlength="1"
+      autocomplete="off"
+      autofocus
+    />
+
+    <button id="guessBtn">Guess</button>
+
+    <p id="output"></p>
+
+    <button id="resetBtn"><b>PLAY AGAIN</b></button>
+
+    <p style="text-align: center; margin-top: 20px">
+      <a
+        href="https://github.com/Harish3000/guessing-game-algorithm"
+        target="_blank"
+      >
+        View on GitHub
+      </a>
+    </p>
+
+    <script src="algorithm.js"></script>
+  </body>
+</html>
