@@ -1,0 +1,26 @@
+services:
+  rate-service:
+    build: ./rate-service
+    networks:
+      - my-bridge-network
+
+  allocation-service:
+    build: ./allocation-service
+    networks:
+      - my-bridge-network
+
+  logistic-service:
+    build: ./logistic-service
+    networks:
+      - my-bridge-network
+
+  aggregation-service:
+    build: ./aggregation-service
+    ports:
+      - "3000:3000"
+    networks:
+      - my-bridge-network
+
+networks:
+  my-bridge-network:
+    driver: bridge
